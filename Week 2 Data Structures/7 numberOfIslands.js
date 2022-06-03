@@ -32,6 +32,7 @@ var numIslands = function (grid) {
 function explore(row, col, grid) {
   //Let's return IF
   // row < 0 OR col < 0 OR row is out of bounds(meaning the row is larger than the number of arrays in the 2d array) OR col is at/out of bounds (meaning the current col is at/over the number of elements a row has.)
+  // in any case where the row/column/grid is outside the given bounds (not sure how that's possible?)
   if (
     row < 0 ||
     col < 0 ||
