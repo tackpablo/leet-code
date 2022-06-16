@@ -26,7 +26,7 @@
 // In both the top-down and bottom-up DP solutions, the time complexity is O(N * T) and the space complexity is O(T).
 
 // top down dp
-var combinationSum4 = function (nums, target) {
+var combinationSum4 = function (N, T) {
   let dp = new Uint32Array(T + 1);
   dp[0] = 1;
   for (let i = 1; i <= T; i++)
