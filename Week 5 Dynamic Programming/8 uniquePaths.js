@@ -25,6 +25,7 @@ var uniquePaths = function (m, n) {
       }
     }
   }
+  // dp[0][0] since we want to figure out the number of paths from (0,0) to the bottom-right
   return dp[0][0];
 };
 
